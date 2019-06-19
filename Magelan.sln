@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magelan.Domains", "Magelan.Domains\Magelan.Domains.csproj", "{109698EC-8DF8-4C87-8E32-4E5043B822D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magelan.Repositories", "Magelan.Repositories\Magelan.Repositories.csproj", "{4C85D5B7-D530-4623-8931-0D140028AE1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magelan.Services", "Magelan.Services\Magelan.Services.csproj", "{92CC72EB-F3E1-4B02-BBE0-F4D598D43200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magelan.Web", "Magelan.Web\Magelan.Web.csproj", "{6DBA5A63-497D-45BE-B7D0-AC2B6D291E4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{109698EC-8DF8-4C87-8E32-4E5043B822D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{109698EC-8DF8-4C87-8E32-4E5043B822D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{109698EC-8DF8-4C87-8E32-4E5043B822D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{109698EC-8DF8-4C87-8E32-4E5043B822D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C85D5B7-D530-4623-8931-0D140028AE1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C85D5B7-D530-4623-8931-0D140028AE1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C85D5B7-D530-4623-8931-0D140028AE1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C85D5B7-D530-4623-8931-0D140028AE1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CC72EB-F3E1-4B02-BBE0-F4D598D43200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CC72EB-F3E1-4B02-BBE0-F4D598D43200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CC72EB-F3E1-4B02-BBE0-F4D598D43200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CC72EB-F3E1-4B02-BBE0-F4D598D43200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBA5A63-497D-45BE-B7D0-AC2B6D291E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBA5A63-497D-45BE-B7D0-AC2B6D291E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBA5A63-497D-45BE-B7D0-AC2B6D291E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBA5A63-497D-45BE-B7D0-AC2B6D291E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

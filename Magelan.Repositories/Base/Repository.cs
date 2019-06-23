@@ -12,17 +12,16 @@ namespace Magelan.Repositories.Base {
         protected readonly MagelanDbContext Context;
         protected readonly DbSet<TEntity> DbSet;
 
-        public Repository(MagelanDbContext context)
-        {
+        public Repository(MagelanDbContext context) {
             Context = context;
             DbSet = Context.Set<TEntity>();
         }
-        
-        
+
+
         public TEntity Get(Guid id) {
             // Here we are working with a DbContext, not PlutoContext. So we don't have DbSets 
             // such as Courses or Authors, and we need to use the generic Set() method to access them.
-            
+
             return DbSet.Find(id);
         }
 
@@ -53,12 +52,23 @@ namespace Magelan.Repositories.Base {
         public void Add(TEntity entity) {
             var entry = Context.Entry(entity);
 
+            entity.Id = Guid.NewGuid();
+            entity.Deleted = false;
+            entity.Archive = false;
+
+
             entry.State = EntityState.Detached;
 
             DbSet.Add(entity);
         }
 
         public void AddRange(IEnumerable<TEntity> entities) {
+            foreach (var entity in entities) {
+                entity.Id = Guid.NewGuid();
+                entity.Deleted = false;
+                entity.Archive = false;
+            }
+
             DbSet.AddRange(entities);
         }
 

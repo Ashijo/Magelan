@@ -84,6 +84,7 @@
       <e p="Magelan.Web" t="IncludeRecursive">
         <e p="Controllers" t="Include">
           <e p="HomeController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
         </e>
         <e p="Magelan.Web.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
@@ -110,6 +111,8 @@
           </e>
           <e p="User" t="Include">
             <e p="Create.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
           </e>
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />

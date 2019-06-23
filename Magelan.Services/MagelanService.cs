@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Magelan.Domains;
+using Magelan.Repositories;
 using Magelan.Repositories.Interfaces;
 
 namespace Magelan.Services {
@@ -10,13 +11,13 @@ namespace Magelan.Services {
             _PostRepository = postRepository;
         }
 
-        public void AddPost(Post newPost) {
+        public void AddPost(Posts newPost) {
             _PostRepository.Add(newPost);
             _PostRepository.SaveChanges();
         }
 
-        public List<Post> GetPosts() {
-            return _PostRepository.GetAll() as List<Post>;
+        public List<Posts> GetPosts() {
+            return _PostRepository.GetAll() as List<Posts>;
         }
     }
 }

@@ -8,9 +8,17 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="Magelan.Domains" t="IncludeRecursive">
+        <e p="AspNetRoleClaims.cs" t="Include" />
+        <e p="AspNetRoles.cs" t="Include" />
+        <e p="AspNetUserClaims.cs" t="Include" />
+        <e p="AspNetUserLogins.cs" t="Include" />
+        <e p="AspNetUserRoles.cs" t="Include" />
+        <e p="AspNetUserTokens.cs" t="Include" />
+        <e p="AspNetUsers.cs" t="Include" />
         <e p="BasicEntity.cs" t="Include" />
+        <e p="EfmigrationsHistory.cs" t="Include" />
         <e p="Magelan.Domains.csproj" t="IncludeRecursive" />
-        <e p="Post.cs" t="Include" />
+        <e p="Posts.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -22,6 +30,7 @@
       </e>
       <e p="Magelan.Repositories" t="IncludeRecursive">
         <e p="Base" t="Include">
+          <e p="ICrudableRepository.cs" t="Include" />
           <e p="IRepository.cs" t="Include" />
           <e p="Repository.cs" t="Include" />
         </e>
@@ -31,6 +40,7 @@
         </e>
         <e p="Interfaces" t="Include">
           <e p="IPostRepository.cs" t="Include" />
+          <e p="IUserRepository.cs" t="Include" />
         </e>
         <e p="Magelan.Repositories.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
@@ -41,7 +51,7 @@
           <e p="MagelanDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Repositories" t="Include">
-          <e p="PostRepository.cs" t="Include" />
+          <e p="PostsRepository.cs" t="Include" />
         </e>
         <e p="RepositoryExtensions.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
@@ -76,6 +86,9 @@
         <e p="Magelan.Web.csproj" t="IncludeRecursive" />
         <e p="Models" t="Include">
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="UserViewModels" t="Include">
+            <e p="CreateUserViewModel.cs" t="Include" />
+          </e>
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
@@ -92,6 +105,9 @@
             <e p="_CookieConsentPartial.cshtml" t="Include" />
             <e p="_Layout.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+          </e>
+          <e p="User" t="Include">
+            <e p="Create.cshtml" t="Include" />
           </e>
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />

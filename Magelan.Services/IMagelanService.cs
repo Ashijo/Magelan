@@ -1,9 +1,11 @@
 using System.Collections.Generic;
 using Magelan.Domains;
+using Magelan.Repositories;
 
 namespace Magelan.Services {
     public interface IMagelanService {
-        void AddPost(Post newPost);
-        List<Post> GetPosts();
+        void AddPost(Posts newPost);
+        
+        List<Posts> GetPosts();
     }
 }

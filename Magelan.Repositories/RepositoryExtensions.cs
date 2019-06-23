@@ -29,7 +29,7 @@ namespace Magelan.Repositories {
         }
 
         public static IServiceCollection AddRepositories(this IServiceCollection services) {
-            services.AddScoped<IPostRepository, PostRepository>();
+            services.AddScoped<IPostRepository, PostsRepository>();
 
             return services;
         }

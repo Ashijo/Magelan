@@ -62,30 +62,6 @@ namespace Magelan.Repositories.Base {
             DbSet.AddRange(entities);
         }
 
-        public void Remove(TEntity entity) {
-            DbSet.Remove(entity);
-        }
-
-        public void RemoveRange(IEnumerable<TEntity> entities) {
-            DbSet.RemoveRange(entities);
-        }
-
-        public void Update(TEntity entity) {
-            var entry = Context.Entry(entity);
-
-            if (entry.State != EntityState.Detached)
-            {
-                entry.State = EntityState.Modified;
-            }
-            else
-            {
-                DbSet.Update(entity);
-            }
-        }
-
-        public void UpdateRange(IEnumerable<TEntity> entities) {
-            DbSet.UpdateRange(entities);
-        }
 
         public bool SaveChanges() {
             return Context.SaveChanges() > 0;

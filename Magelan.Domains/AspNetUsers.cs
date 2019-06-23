@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using Magelan.Domains;
 
 namespace Magelan.Repositories
 {
-    public partial class AspNetUsers
+    public partial class AspNetUsers : BasicEntity
     {
         public AspNetUsers()
         {
@@ -13,7 +14,6 @@ namespace Magelan.Repositories
             AspNetUserTokens = new HashSet<AspNetUserTokens>();
         }
 
-        public string Id { get; set; }
         public string UserName { get; set; }
         public string NormalizedUserName { get; set; }
         public string Email { get; set; }

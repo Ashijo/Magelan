@@ -30,6 +30,7 @@
       </e>
       <e p="Magelan.Repositories" t="IncludeRecursive">
         <e p="Base" t="Include">
+          <e p="CrudableRepository.cs" t="Include" />
           <e p="ICrudableRepository.cs" t="Include" />
           <e p="IRepository.cs" t="Include" />
           <e p="Repository.cs" t="Include" />
@@ -52,6 +53,7 @@
         </e>
         <e p="Repositories" t="Include">
           <e p="PostsRepository.cs" t="Include" />
+          <e p="UserRepository.cs" t="Include" />
         </e>
         <e p="RepositoryExtensions.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />

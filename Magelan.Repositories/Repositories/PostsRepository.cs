@@ -5,7 +5,7 @@ using Magelan.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Magelan.Repositories.Repositories {
-    public class PostsRepository : Repository<Posts>, IPostRepository {
+    public class PostsRepository : CrudableRepository<Posts>, IPostRepository {
         public PostsRepository(MagelanDbContext context) : base(context) { }
     }
 }

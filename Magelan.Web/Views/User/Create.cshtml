@@ -1,14 +1,15 @@
-@model TModel
+@model Magelan.Web.Models.UserViewModels.CreateUserViewModel
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
-      
+<div class="container">
+    
+    <form asp-controller="User" asp-action="Create" method="post">
+        
+        <label>Username : <input asp-for="UserName"/></label>
+        <label>Password : <input asp-for="Password"/></label>
+        <label>Phone number : <input asp-for="PhoneNumber"/></label>
+        <label>Lockout enable : <input asp-for="LockoutEnabled"/></label>
+        
+    </form>
+    
 </div>
-</body>
-</html>

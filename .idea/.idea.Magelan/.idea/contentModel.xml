@@ -36,6 +36,7 @@
           <e p="Repository.cs" t="Include" />
         </e>
         <e p="DbContexts" t="Include">
+          <e p="GuidStringGenerator.cs" t="Include" />
           <e p="MagelanDbContext.cs" t="Include" />
           <e p="MagelanDbContextFactory.cs" t="Include" />
         </e>
@@ -72,6 +73,9 @@
         <e p="IMagelanService.cs" t="Include" />
         <e p="Magelan.Services.csproj" t="IncludeRecursive" />
         <e p="MagelanService.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="UserService.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

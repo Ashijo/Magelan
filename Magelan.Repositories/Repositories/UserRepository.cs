@@ -1,3 +1,4 @@
+using Magelan.Domains;
 using Magelan.Repositories.Base;
 using Magelan.Repositories.DbContexts;
 using Magelan.Repositories.Interfaces;

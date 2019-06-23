@@ -1,6 +1,8 @@
+using System;
 using Magelan.Domains;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Magelan.Repositories.DbContexts {
     public class MagelanDbContext : IdentityDbContext {
@@ -29,6 +31,11 @@ namespace Magelan.Repositories.DbContexts {
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            var converter = new ValueConverter<Guid, string>(
+                v => v.ToString(),
+                v => Guid.Parse(v), 
+                new ConverterMappingHints(valueGeneratorFactory: (p, t) => new GuidStringGenerator()));
+            
             modelBuilder.Entity<AspNetRoleClaims>(entity =>
             {
                 entity.HasIndex(e => e.RoleId);
@@ -54,7 +61,8 @@ namespace Magelan.Repositories.DbContexts {
                     .HasName("RoleNameIndex")
                     .IsUnique();
 
-                entity.Property(e => e.Id).HasColumnType("varchar(255)");
+                entity.Property(e => e.Id).HasColumnType("varchar(255)")
+                    .HasConversion(converter);
 
                 entity.Property(e => e.ConcurrencyStamp).HasColumnType("longtext");
 
@@ -91,17 +99,20 @@ namespace Magelan.Repositories.DbContexts {
 
                 entity.Property(e => e.LoginProvider).HasColumnType("varchar(255)");
 
-                entity.Property(e => e.ProviderKey).HasColumnType("varchar(255)");
+                entity.Property(e => e.ProviderKey).HasColumnType("varchar(255)")
+                    .HasConversion(converter);
 
                 entity.Property(e => e.ProviderDisplayName).HasColumnType("longtext");
 
                 entity.Property(e => e.UserId)
                     .IsRequired()
-                    .HasColumnType("varchar(255)");
+                    .HasColumnType("varchar(255)")
+                    .HasConversion(converter);
 
                 entity.HasOne(d => d.User)
                     .WithMany(p => p.AspNetUserLogins)
-                    .HasForeignKey(d => d.UserId);
+                    .HasForeignKey(d => d.UserId)
+                    ;
             });
 
             modelBuilder.Entity<AspNetUserRoles>(entity =>
@@ -111,9 +122,13 @@ namespace Magelan.Repositories.DbContexts {
 
                 entity.HasIndex(e => e.RoleId);
 
-                entity.Property(e => e.UserId).HasColumnType("varchar(255)");
+                entity.Property(e => e.UserId).HasColumnType("varchar(255)")
+                    .HasConversion(converter);
 
-                entity.Property(e => e.RoleId).HasColumnType("varchar(255)");
+
+                entity.Property(e => e.RoleId).HasColumnType("varchar(255)")
+                    .HasConversion(converter);
+
 
                 entity.HasOne(d => d.Role)
                     .WithMany(p => p.AspNetUserRoles)
@@ -129,7 +144,9 @@ namespace Magelan.Repositories.DbContexts {
                 entity.HasKey(e => new { e.UserId, e.LoginProvider, e.Name })
                     .HasName("PRIMARY");
 
-                entity.Property(e => e.UserId).HasColumnType("varchar(255)");
+                entity.Property(e => e.UserId).HasColumnType("varchar(255)")
+                    .HasConversion(converter);
+
 
                 entity.Property(e => e.LoginProvider).HasColumnType("varchar(255)");
 
@@ -151,7 +168,9 @@ namespace Magelan.Repositories.DbContexts {
                     .HasName("UserNameIndex")
                     .IsUnique();
 
-                entity.Property(e => e.Id).HasColumnType("varchar(255)");
+                entity.Property(e => e.Id).HasColumnType("varchar(255)")
+                    .HasConversion(converter);
+
 
                 entity.Property(e => e.AccessFailedCount).HasColumnType("int(11)");
 
@@ -206,6 +225,8 @@ namespace Magelan.Repositories.DbContexts {
 
                 entity.Property(e => e.Title).HasColumnType("longtext");
             });
+            
+            base.OnModelCreating(modelBuilder);
         }
 
     }

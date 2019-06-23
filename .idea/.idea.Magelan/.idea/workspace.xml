@@ -4,7 +4,24 @@
     <list default="true" id="7afa912a-0de2-4af4-8acc-553eb0e6d06e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Domains/AspNetRoleClaims.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/AspNetRoleClaims.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Domains/AspNetRoles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/AspNetRoles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Domains/AspNetUserClaims.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/AspNetUserClaims.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Domains/AspNetUserLogins.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/AspNetUserLogins.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Domains/AspNetUserRoles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/AspNetUserRoles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Domains/AspNetUserTokens.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/AspNetUserTokens.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Domains/AspNetUsers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/AspNetUsers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Domains/BasicEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/BasicEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Web/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Web/Models/UserViewModels/CreateUserViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Models/UserViewModels/CreateUserViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/User/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/User/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/User/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/User/Edit.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/User/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/User/Index.cshtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,169 +30,217 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-              <folding>
-                <marker date="1561307935820" expanded="false" signature="6:235" ph="..." />
-                <marker date="1561307935820" expanded="true" signature="273:2679" ph="{...}" />
-                <marker date="1561307935820" expanded="true" signature="363:2677" ph="{...}" />
-                <marker date="1561307935820" expanded="true" signature="520:606" ph="{...}" />
-                <marker date="1561307935820" expanded="true" signature="645:891" ph="{...}" />
-                <marker date="1561307935820" expanded="true" signature="659:845" ph="/* Here we are working with a DbContext, not PlutoContext. So we don't have DbSets ... */" />
-                <marker date="1561307935820" expanded="true" signature="938:1697" ph="{...}" />
-                <marker date="1561307935820" expanded="true" signature="952:1583" ph="/* Note that here I've repeated Context.Set&lt;TEntity&gt;() in every method and this is causing ... */" />
-                <marker date="1561307935820" expanded="true" signature="1783:1837" ph="{...}" />
-                <marker date="1561307935820" expanded="true" signature="1921:1985" ph="{...}" />
-                <marker date="1561307935820" expanded="true" signature="2027:2280" ph="{...}" />
-                <marker date="1561307935820" expanded="true" signature="2342:2577" ph="{...}" />
-                <marker date="1561307935820" expanded="true" signature="2389:2528" ph="{...}" />
-                <marker date="1561307935820" expanded="true" signature="2614:2671" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Magelan.Web/Controllers/UserController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-              <folding>
-                <marker date="1561308314166" expanded="true" signature="67:262" ph="{...}" />
-                <marker date="1561308314166" expanded="true" signature="114:260" ph="{...}" />
-                <marker date="1561308314166" expanded="true" signature="204:254" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Magelan.Web/Views/User/Index.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding>
-                <marker date="1561308314200" expanded="true" signature="32:121" ph="&lt;html.../&gt;" />
-                <marker date="1561308314200" expanded="true" signature="39:78" ph="&lt;head.../&gt;" />
-                <marker date="1561308314200" expanded="true" signature="79:113" ph="&lt;body.../&gt;" />
-                <marker date="1561308314200" expanded="true" signature="86:105" ph="&lt;div.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Magelan.Web/Views/User/Edit.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding>
-                <marker date="1561308355646" expanded="true" signature="32:121" ph="&lt;html.../&gt;" />
-                <marker date="1561308355646" expanded="true" signature="39:78" ph="&lt;head.../&gt;" />
-                <marker date="1561308355646" expanded="true" signature="79:113" ph="&lt;body.../&gt;" />
-                <marker date="1561308355646" expanded="true" signature="86:105" ph="&lt;div.../&gt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Base/CrudableRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-              <folding>
-                <marker date="1561304827890" expanded="true" signature="6:132" ph="..." />
-                <marker date="1561304827890" expanded="true" signature="170:1295" ph="{...}" />
-                <marker date="1561304827890" expanded="true" signature="267:1293" ph="{...}" />
-                <marker date="1561304827890" expanded="true" signature="411:579" ph="{...}" />
-                <marker date="1561304827890" expanded="true" signature="508:569" ph="/* We use soft delete here ... */" />
-                <marker date="1561304827890" expanded="true" signature="644:840" ph="{...}" />
-                <marker date="1561304827890" expanded="true" signature="691:745" ph="{...}" />
-                <marker date="1561304827890" expanded="true" signature="885:1160" ph="{...}" />
-                <marker date="1561304827890" expanded="true" signature="987:1067" ph="{...}" />
-                <marker date="1561304827890" expanded="true" signature="1084:1150" ph="{...}" />
-                <marker date="1561304827890" expanded="true" signature="1225:1277" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Interfaces/IPostRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <marker date="1561303554343" expanded="false" signature="6:55" ph="..." />
-                <marker date="1561303554343" expanded="true" signature="99:185" ph="{...}" />
-                <marker date="1561303554343" expanded="true" signature="167:183" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Repositories/PostsRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="8" column="76" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="76" />
-              <folding>
-                <marker date="1561305694423" expanded="false" signature="6:170" ph="..." />
-                <marker date="1561305694423" expanded="true" signature="216:382" ph="{...}" />
-                <marker date="1561305694423" expanded="true" signature="296:380" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <marker date="1561304536770" expanded="true" signature="76:168" ph="{...}" />
-                <marker date="1561304536770" expanded="true" signature="150:166" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Repositories/UserRepository.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <marker date="1561304916383" expanded="true" signature="6:110" ph="..." />
-                <marker date="1561304916383" expanded="true" signature="156:334" ph="{...}" />
-                <marker date="1561304916383" expanded="true" signature="240:332" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetRoles.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <marker date="1561304495890" expanded="false" signature="6:47" ph="..." />
-                <marker date="1561304495890" expanded="true" signature="102:657" ph="{...}" />
-                <marker date="1561304495890" expanded="true" signature="155:655" ph="{...}" />
-                <marker date="1561304495890" expanded="true" signature="190:336" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.50348324">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Magelan.Domains/BasicEntity.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="96">
+                  <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                  <folding>
+                    <marker date="1561326745914" expanded="true" signature="6:58" ph="..." />
+                    <marker date="1561326745914" expanded="true" signature="86:319" ph="{...}" />
+                    <marker date="1561326745914" expanded="true" signature="117:317" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetRoleClaims.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="112">
+                  <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+                  <folding>
+                    <marker date="1561328031878" expanded="false" signature="6:47" ph="..." />
+                    <marker date="1561328031878" expanded="true" signature="119:410" ph="{...}" />
+                    <marker date="1561328031878" expanded="true" signature="163:408" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Magelan.Services/MagelanService.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                  <folding>
+                    <marker date="1561303630016" expanded="false" signature="6:123" ph="..." />
+                    <marker date="1561303630016" expanded="true" signature="152:644" ph="{...}" />
+                    <marker date="1561303630016" expanded="true" signature="204:642" ph="{...}" />
+                    <marker date="1561303630016" expanded="true" signature="327:384" ph="{...}" />
+                    <marker date="1561303630016" expanded="true" signature="429:525" ph="{...}" />
+                    <marker date="1561303630016" expanded="true" signature="565:636" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="232">
+                  <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+                  <folding>
+                    <marker date="1561330688038" expanded="true" signature="6:191" ph="..." />
+                    <marker date="1561330688038" expanded="true" signature="235:8754" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="291:8752" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="385:396" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="1157:1576" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="1213:1566" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="1652:8745" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="1973:2560" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="2618:3150" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="3213:3800" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="3863:4711" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="4773:5504" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="5567:6227" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="6285:7757" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="7823:8224" ph="{...}" />
+                    <marker date="1561330688038" expanded="true" signature="8276:8672" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Magelan.Repositories/DbContexts/GuidStringGenerator.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="128">
+                  <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+                  <folding>
+                    <marker date="1561329434084" expanded="true" signature="6:104" ph="..." />
+                    <marker date="1561329434084" expanded="true" signature="148:539" ph="{...}" />
+                    <marker date="1561329434084" expanded="true" signature="216:537" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUsers.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-40">
+                  <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
+                  <folding>
+                    <marker date="1561323227777" expanded="false" signature="6:70" ph="..." />
+                    <marker date="1561323227777" expanded="true" signature="97:1502" ph="{...}" />
+                    <marker date="1561323227777" expanded="true" signature="150:1500" ph="{...}" />
+                    <marker date="1561323227777" expanded="true" signature="185:459" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserLogins.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="256">
+                  <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+                  <folding>
+                    <marker date="1561327648948" expanded="false" signature="6:47" ph="..." />
+                    <marker date="1561327648948" expanded="true" signature="119:479" ph="{...}" />
+                    <marker date="1561327648948" expanded="true" signature="163:477" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserRoles.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="112">
+                  <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+                  <folding>
+                    <marker date="1561327672571" expanded="false" signature="6:92" ph="..." />
+                    <marker date="1561327672571" expanded="true" signature="119:430" ph="{...}" />
+                    <marker date="1561327672571" expanded="true" signature="162:428" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserTokens.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="128">
+                  <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+                  <folding>
+                    <marker date="1561327689178" expanded="false" signature="6:92" ph="..." />
+                    <marker date="1561327689178" expanded="true" signature="119:467" ph="{...}" />
+                    <marker date="1561327689178" expanded="true" signature="163:465" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserClaims.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="256">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <marker date="1561327587231" expanded="false" signature="6:47" ph="..." />
+                    <marker date="1561327587231" expanded="true" signature="119:418" ph="{...}" />
+                    <marker date="1561327587231" expanded="true" signature="163:416" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Migrations/20190623101249_identity.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1584">
+                  <caret line="212" selection-start-line="212" selection-end-line="212" />
+                  <folding>
+                    <marker date="1561284769988" expanded="false" signature="6:107" ph="..." />
+                    <marker date="1561284769988" expanded="true" signature="150:9316" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="198:9314" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="274:8639" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="418:749" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="788:891" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="1028:2219" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="2258:2361" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="2503:2905" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="2944:3373" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="3515:3917" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="3956:4385" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="4527:4841" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="4880:5343" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="5484:5638" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="5677:6446" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="6588:6881" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="6920:7386" ph="{...}" />
+                    <marker date="1561284769988" expanded="true" signature="8712:9308" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Magelan.Web/Models/UserViewModels/CreateUserViewModel.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="112">
+                  <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+                  <folding>
+                    <marker date="1561326280811" expanded="false" signature="6:98" ph="..." />
+                    <marker date="1561326280811" expanded="true" signature="144:518" ph="{...}" />
+                    <marker date="1561326280811" expanded="true" signature="183:516" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -207,15 +272,20 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32C7DA0B-DE3E-4433-B1FA-3A6000248638/7d/28515fbb/ServiceCollectionServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUsers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserLogins.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Repositories/PostsRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Domains/Posts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Interfaces/IPostRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserRoles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Base/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserTokens.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Magelan.Services/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Magelan.Domains/AspNetRoleClaims.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Domains/AspNetRoles.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Web/Views/User/Edit.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Web/Views/User/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserClaims.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Web/Controllers/UserController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Base/ICrudableRepository.cs" root0="FORCE_HIGHLIGHTING" />
@@ -225,13 +295,13 @@
     <setting file="file://$PROJECT_DIR$/Magelan.Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Migrations/20190623101249_identity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Repositories/UserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Magelan.Repositories/DbContexts/GuidStringGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Magelan.Domains/Program.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/Magelan.Domains.csproj" />
-        <option value="$PROJECT_DIR$/Magelan.Domains/BasicEntity.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/Post.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Program.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IRepository.cs" />
@@ -239,35 +309,43 @@
         <option value="$PROJECT_DIR$/Magelan.Service/Magelan.Service.csproj" />
         <option value="$PROJECT_DIR$/Magelan.Services/Magelan.Services.csproj" />
         <option value="$PROJECT_DIR$/Magelan.Web/Magelan.Web.csproj" />
-        <option value="$PROJECT_DIR$/Magelan.Web/Startup.cs" />
         <option value="$PROJECT_DIR$/Magelan.Services/Extensions/ServicesExtensions.cs" />
         <option value="$PROJECT_DIR$/Magelan.Web/wwwroot/css/darkSite.css" />
-        <option value="$PROJECT_DIR$/Magelan.Web/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Magelan.Web/Controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Magelan.Repositories.csproj" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContextFactory.cs" />
-        <option value="$PROJECT_DIR$/Magelan.Web/Views/User/Create.cshtml" />
-        <option value="$PROJECT_DIR$/Magelan.Web/Models/UserViewModels/CreateUserViewModel.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Base/IRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Base/ICrudableRepository.cs" />
-        <option value="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IPostRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Repositories/PostRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/RepositoryExtensions.cs" />
         <option value="$PROJECT_DIR$/Magelan.Services/IMagelanService.cs" />
         <option value="$PROJECT_DIR$/Magelan.Services/MagelanService.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/Posts.cs" />
-        <option value="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs" />
-        <option value="$PROJECT_DIR$/Magelan.Domains/AspNetUsers.cs" />
-        <option value="$PROJECT_DIR$/Magelan.Domains/AspNetRoles.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Repositories/PostsRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Base/CrudableRepository.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Domains/AspNetUsers.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Domains/AspNetRoles.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Repositories/UserRepository.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Services/Services/UserService.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Web/Startup.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Web/Models/UserViewModels/CreateUserViewModel.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Web/Views/User/Create.cshtml" />
+        <option value="$PROJECT_DIR$/Magelan.Web/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Magelan.Web/Controllers/UserController.cs" />
-        <option value="$PROJECT_DIR$/Magelan.Web/Views/User/Index.cshtml" />
         <option value="$PROJECT_DIR$/Magelan.Web/Views/User/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/Magelan.Web/Views/User/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Magelan.Domains/BasicEntity.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Domains/AspNetUserClaims.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Domains/AspNetUserLogins.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Domains/AspNetUserRoles.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Domains/AspNetUserTokens.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Domains/AspNetRoleClaims.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Repositories/DbContexts/GuidStringGenerator.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs" />
       </list>
     </option>
   </component>
@@ -284,14 +362,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Magelan.Domains" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Magelan.Repositories" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Magelan.Repositories" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DbContexts" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Magelan.Repositories" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Migrations" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Magelan.Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Magelan.Services" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -308,7 +417,34 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Magelan.Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Magelan.Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="UserViewModels" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Magelan.Web" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Magelan.Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Magelan" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Magelan.Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Shared" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -322,6 +458,8 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,6 +471,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -372,12 +511,13 @@
       <updated>1560888610769</updated>
       <workItem from="1560888623268" duration="9854000" />
       <workItem from="1560973629964" duration="15025000" />
-      <workItem from="1561284414186" duration="7871000" />
+      <workItem from="1561284414186" duration="8502000" />
+      <workItem from="1561321926237" duration="8799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32750000" />
+    <option name="totallyTimeSpent" value="42180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,9 +530,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1917" y="-1" width="1926" height="1054" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15761448" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15921193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -410,7 +549,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32939914" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.32939914" />
-      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32939914" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.32939914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -437,16 +576,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Magelan.Domains/Startup.cs" />
-    <entry file="file://$PROJECT_DIR$/Magelan.Domains/Program.cs" />
-    <entry file="file://$PROJECT_DIR$/Magelan.Domains/Magelan.Domains.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Program.cs" />
     <entry file="file://$PROJECT_DIR$/Magelan.Services/Program.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32C7DA0B-DE3E-4433-B1FA-3A6000248638/7d/28515fbb/ServiceCollectionServiceExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -472,62 +601,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Services/Extensions/ServicesExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1560897696868" expanded="false" signature="6:75" ph="..." />
-            <marker date="1560897696868" expanded="true" signature="115:433" ph="{...}" />
-            <marker date="1560897696868" expanded="true" signature="160:431" ph="{...}" />
-            <marker date="1560897696868" expanded="true" signature="255:425" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Domains/Post.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding>
-            <marker date="1560889412405" expanded="true" signature="26:159" ph="{...}" />
-            <marker date="1560889412405" expanded="true" signature="64:157" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Web/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding>
-            <marker date="1560895423958" expanded="false" signature="6:255" ph="..." />
-            <marker date="1560895423958" expanded="true" signature="279:593" ph="{...}" />
-            <marker date="1560895423958" expanded="true" signature="306:591" ph="{...}" />
-            <marker date="1560895423958" expanded="true" signature="355:420" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Web/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="40" column="61" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
-          <folding>
-            <marker date="1560897277868" expanded="false" signature="6:465" ph="..." />
-            <marker date="1560897277868" expanded="true" signature="489:2735" ph="{...}" />
-            <marker date="1560897277868" expanded="true" signature="516:2733" ph="{...}" />
-            <marker date="1560897277868" expanded="true" signature="571:625" ph="{...}" />
-            <marker date="1560897277868" expanded="true" signature="849:1857" ph="{...}" />
-            <marker date="1560897277868" expanded="true" signature="1324:1588" ph="{...}" />
-            <marker date="1560897277868" expanded="true" signature="2046:2727" ph="{...}" />
-            <marker date="1560897277868" expanded="true" signature="2085:2149" ph="{...}" />
-            <marker date="1560897277868" expanded="true" signature="2149:2413" ph="{...}" />
-            <marker date="1560897277868" expanded="true" signature="2557:2715" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/Post.cs" />
     <entry file="file://$PROJECT_DIR$/Magelan.Web/wwwroot/css/darkSite.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -561,36 +635,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Web/Views/Shared/_Layout.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding>
-            <marker date="1560980551332" expanded="true" signature="16:3695" ph="&lt;html.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="23:893" ph="&lt;head.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="193:327" ph="&lt;environment.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="332:833" ph="&lt;environment.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="894:3687" ph="&lt;body.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="905:2135" ph="&lt;header.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="922:2121" ph="&lt;nav.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="1045:2106" ph="&lt;div.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="1190:1493" ph="&lt;button.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="1510:2087" ph="&lt;div.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="1606:2064" ph="&lt;ul.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="1666:1837" ph="&lt;li.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="1862:2038" ph="&lt;li.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="2140:2305" ph="&lt;div.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="2221:2294" ph="&lt;main.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="2311:2527" ph="&lt;footer.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="2365:2513" ph="&lt;div.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="2533:2723" ph="&lt;environment.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="2728:3564" ph="&lt;environment.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="2772:3107" ph="&lt;script.../&gt;" />
-            <marker date="1560980551332" expanded="true" signature="3116:3545" ph="&lt;script.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Magelan.Web/Controllers/HomeController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -614,47 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Migrations/20190623101249_identity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
-          <folding>
-            <marker date="1561284769988" expanded="false" signature="6:107" ph="..." />
-            <marker date="1561284769988" expanded="true" signature="150:9316" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="198:9314" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="274:8639" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="418:749" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="788:891" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="1028:2219" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="2258:2361" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="2503:2905" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="2944:3373" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="3515:3917" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="3956:4385" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="4527:4841" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="4880:5343" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="5484:5638" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="5677:6446" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="6588:6881" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="6920:7386" ph="{...}" />
-            <marker date="1561284769988" expanded="true" signature="8712:9308" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Web/Views/User/Create.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <marker date="1561301119076" expanded="true" signature="32:121" ph="&lt;html.../&gt;" />
-            <marker date="1561301119076" expanded="true" signature="39:78" ph="&lt;head.../&gt;" />
-            <marker date="1561301119076" expanded="true" signature="79:113" ph="&lt;body.../&gt;" />
-            <marker date="1561301119076" expanded="true" signature="86:105" ph="&lt;div.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Magelan.Web/Models/ErrorViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -662,17 +665,6 @@
           <folding>
             <marker date="1560895423898" expanded="true" signature="44:205" ph="{...}" />
             <marker date="1560895423898" expanded="true" signature="78:203" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Web/Models/UserViewModels/CreateUserViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding>
-            <marker date="1561301187320" expanded="true" signature="44:101" ph="{...}" />
-            <marker date="1561301187320" expanded="true" signature="83:99" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -721,38 +713,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Domains/MagelanContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="215" column="9" lean-forward="true" selection-start-line="16" selection-end-line="215" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <marker date="1561303464003" expanded="false" signature="6:116" ph="..." />
-            <marker date="1561303464003" expanded="true" signature="160:8020" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="216:8018" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="310:321" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="1082:1501" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="1138:1491" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="1577:8011" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="1647:2234" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="2292:2778" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="2841:3428" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="3491:4226" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="4288:4925" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="4988:5601" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="5659:7084" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="7150:7551" ph="{...}" />
-            <marker date="1561303464003" expanded="true" signature="7603:7999" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/MagelanContext.cs" />
     <entry file="file://$PROJECT_DIR$/Magelan.Repositories/RepositoryExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -764,92 +725,6 @@
             <marker date="1561303632526" expanded="true" signature="586:811" ph="{...}" />
             <marker date="1561303632526" expanded="true" signature="937:1246" ph="{...}" />
             <marker date="1561303632526" expanded="true" signature="1339:1448" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Services/IMagelanService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <marker date="1561303604750" expanded="false" signature="6:84" ph="..." />
-            <marker date="1561303604750" expanded="true" signature="113:239" ph="{...}" />
-            <marker date="1561303604750" expanded="true" signature="152:237" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Services/MagelanService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <marker date="1561303630016" expanded="false" signature="6:123" ph="..." />
-            <marker date="1561303630016" expanded="true" signature="152:644" ph="{...}" />
-            <marker date="1561303630016" expanded="true" signature="204:642" ph="{...}" />
-            <marker date="1561303630016" expanded="true" signature="327:384" ph="{...}" />
-            <marker date="1561303630016" expanded="true" signature="429:525" ph="{...}" />
-            <marker date="1561303630016" expanded="true" signature="565:636" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Domains/BasicEntity.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <marker date="1560889359878" expanded="true" signature="41:251" ph="{...}" />
-            <marker date="1560889359878" expanded="true" signature="72:249" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Domains/Posts.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1561303750216" expanded="false" signature="6:47" ph="..." />
-            <marker date="1561303750216" expanded="true" signature="102:249" ph="{...}" />
-            <marker date="1561303750216" expanded="true" signature="149:247" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUsers.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <marker date="1561304467366" expanded="false" signature="6:47" ph="..." />
-            <marker date="1561304467366" expanded="true" signature="102:1507" ph="{...}" />
-            <marker date="1561304467366" expanded="true" signature="155:1505" ph="{...}" />
-            <marker date="1561304467366" expanded="true" signature="190:464" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserTokens.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <marker date="1561303409626" expanded="false" signature="6:47" ph="..." />
-            <marker date="1561303409626" expanded="true" signature="79:368" ph="{...}" />
-            <marker date="1561303409626" expanded="true" signature="123:366" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1561304536770" expanded="true" signature="76:168" ph="{...}" />
-            <marker date="1561304536770" expanded="true" signature="150:166" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -898,88 +773,417 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Repositories/UserRepository.cs">
+    <entry file="file://$PROJECT_DIR$/Magelan.Services/Extensions/ServicesExtensions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="112">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <marker date="1561304916383" expanded="true" signature="6:110" ph="..." />
-            <marker date="1561304916383" expanded="true" signature="156:334" ph="{...}" />
-            <marker date="1561304916383" expanded="true" signature="240:332" ph="{...}" />
+            <marker date="1560897696868" expanded="false" signature="6:75" ph="..." />
+            <marker date="1560897696868" expanded="true" signature="115:433" ph="{...}" />
+            <marker date="1560897696868" expanded="true" signature="160:431" ph="{...}" />
+            <marker date="1560897696868" expanded="true" signature="255:425" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetRoles.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Services/IMagelanService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding>
-            <marker date="1561304495890" expanded="false" signature="6:47" ph="..." />
-            <marker date="1561304495890" expanded="true" signature="102:657" ph="{...}" />
-            <marker date="1561304495890" expanded="true" signature="155:655" ph="{...}" />
-            <marker date="1561304495890" expanded="true" signature="190:336" ph="{...}" />
+            <marker date="1561303604750" expanded="false" signature="6:84" ph="..." />
+            <marker date="1561303604750" expanded="true" signature="113:239" ph="{...}" />
+            <marker date="1561303604750" expanded="true" signature="152:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding>
+            <marker date="1561323200337" expanded="true" signature="6:55" ph="..." />
+            <marker date="1561323200337" expanded="true" signature="99:191" ph="{...}" />
+            <marker date="1561323200337" expanded="true" signature="173:189" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Web/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1560895423958" expanded="false" signature="6:255" ph="..." />
+            <marker date="1560895423958" expanded="true" signature="279:593" ph="{...}" />
+            <marker date="1560895423958" expanded="true" signature="306:591" ph="{...}" />
+            <marker date="1560895423958" expanded="true" signature="355:420" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="301">
+          <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
           <folding>
-            <marker date="1561307935820" expanded="false" signature="6:235" ph="..." />
-            <marker date="1561307935820" expanded="true" signature="273:2679" ph="{...}" />
-            <marker date="1561307935820" expanded="true" signature="363:2677" ph="{...}" />
-            <marker date="1561307935820" expanded="true" signature="520:606" ph="{...}" />
-            <marker date="1561307935820" expanded="true" signature="645:891" ph="{...}" />
-            <marker date="1561307935820" expanded="true" signature="659:845" ph="/* Here we are working with a DbContext, not PlutoContext. So we don't have DbSets ... */" />
-            <marker date="1561307935820" expanded="true" signature="938:1697" ph="{...}" />
-            <marker date="1561307935820" expanded="true" signature="952:1583" ph="/* Note that here I've repeated Context.Set&lt;TEntity&gt;() in every method and this is causing ... */" />
-            <marker date="1561307935820" expanded="true" signature="1783:1837" ph="{...}" />
-            <marker date="1561307935820" expanded="true" signature="1921:1985" ph="{...}" />
-            <marker date="1561307935820" expanded="true" signature="2027:2280" ph="{...}" />
-            <marker date="1561307935820" expanded="true" signature="2342:2577" ph="{...}" />
-            <marker date="1561307935820" expanded="true" signature="2389:2528" ph="{...}" />
-            <marker date="1561307935820" expanded="true" signature="2614:2671" ph="{...}" />
+            <marker date="1561325457324" expanded="false" signature="6:235" ph="..." />
+            <marker date="1561325457324" expanded="true" signature="273:2771" ph="{...}" />
+            <marker date="1561325457324" expanded="true" signature="363:2769" ph="{...}" />
+            <marker date="1561325457324" expanded="true" signature="520:606" ph="{...}" />
+            <marker date="1561325457324" expanded="true" signature="645:891" ph="{...}" />
+            <marker date="1561325457324" expanded="true" signature="659:845" ph="/* Here we are working with a DbContext, not PlutoContext. So we don't have DbSets ... */" />
+            <marker date="1561325457324" expanded="true" signature="938:1697" ph="{...}" />
+            <marker date="1561325457324" expanded="true" signature="952:1583" ph="/* Note that here I've repeated Context.Set&lt;TEntity&gt;() in every method and this is causing ... */" />
+            <marker date="1561325457324" expanded="true" signature="1783:1837" ph="{...}" />
+            <marker date="1561325457324" expanded="true" signature="1921:1985" ph="{...}" />
+            <marker date="1561325457324" expanded="true" signature="2027:2324" ph="{...}" />
+            <marker date="1561325457324" expanded="true" signature="2386:2669" ph="{...}" />
+            <marker date="1561325457324" expanded="true" signature="2433:2620" ph="{...}" />
+            <marker date="1561325457324" expanded="true" signature="2706:2763" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Services/Services/UserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1561324001197" expanded="true" signature="6:144" ph="..." />
+            <marker date="1561324001197" expanded="true" signature="182:772" ph="{...}" />
+            <marker date="1561324001197" expanded="true" signature="213:770" ph="{...}" />
+            <marker date="1561324001197" expanded="true" signature="333:755" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Repositories/UserRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1561323210507" expanded="true" signature="6:133" ph="..." />
+            <marker date="1561323210507" expanded="true" signature="179:357" ph="{...}" />
+            <marker date="1561323210507" expanded="true" signature="263:355" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Web/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1561325950711" expanded="true" signature="6:465" ph="..." />
+            <marker date="1561325950711" expanded="true" signature="489:2735" ph="{...}" />
+            <marker date="1561325950711" expanded="true" signature="516:2733" ph="{...}" />
+            <marker date="1561325950711" expanded="true" signature="571:625" ph="{...}" />
+            <marker date="1561325950711" expanded="true" signature="849:1857" ph="{...}" />
+            <marker date="1561325950711" expanded="true" signature="1324:1588" ph="{...}" />
+            <marker date="1561325950711" expanded="true" signature="2046:2727" ph="{...}" />
+            <marker date="1561325950711" expanded="true" signature="2085:2149" ph="{...}" />
+            <marker date="1561325950711" expanded="true" signature="2149:2413" ph="{...}" />
+            <marker date="1561325950711" expanded="true" signature="2557:2715" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Web/Models/UserViewModels/CreateUserViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <marker date="1561326280811" expanded="false" signature="6:98" ph="..." />
+            <marker date="1561326280811" expanded="true" signature="144:518" ph="{...}" />
+            <marker date="1561326280811" expanded="true" signature="183:516" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Web/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="37" column="110" selection-start-line="37" selection-start-column="110" selection-end-line="37" selection-end-column="110" />
+          <folding>
+            <marker date="1561326488337" expanded="true" signature="16:3895" ph="&lt;html.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="23:893" ph="&lt;head.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="193:327" ph="&lt;environment.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="332:833" ph="&lt;environment.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="894:3887" ph="&lt;body.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="905:2335" ph="&lt;header.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="922:2321" ph="&lt;nav.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="1045:2306" ph="&lt;div.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="1190:1493" ph="&lt;button.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="1510:2287" ph="&lt;div.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="1606:2264" ph="&lt;ul.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="1666:1837" ph="&lt;li.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="1862:2038" ph="&lt;li.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="2063:2238" ph="&lt;li.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="2340:2505" ph="&lt;div.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="2421:2494" ph="&lt;main.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="2511:2727" ph="&lt;footer.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="2565:2713" ph="&lt;div.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="2733:2923" ph="&lt;environment.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="2928:3764" ph="&lt;environment.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="2972:3307" ph="&lt;script.../&gt;" />
+            <marker date="1561326488337" expanded="true" signature="3316:3745" ph="&lt;script.../&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Magelan.Web/Controllers/UserController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="376">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding>
-            <marker date="1561308314166" expanded="true" signature="67:262" ph="{...}" />
-            <marker date="1561308314166" expanded="true" signature="114:260" ph="{...}" />
-            <marker date="1561308314166" expanded="true" signature="204:254" ph="{...}" />
+            <marker date="1561326518464" expanded="true" signature="6:256" ph="..." />
+            <marker date="1561326518464" expanded="true" signature="292:1248" ph="{...}" />
+            <marker date="1561326518464" expanded="true" signature="339:1246" ph="{...}" />
+            <marker date="1561326518464" expanded="true" signature="399:437" ph="{...}" />
+            <marker date="1561326518464" expanded="true" signature="570:1140" ph="{...}" />
+            <marker date="1561326518464" expanded="true" signature="1202:1240" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Magelan.Web/Views/User/Index.cshtml">
+    <entry file="file://$PROJECT_DIR$/Magelan.Web/Views/User/Create.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="176">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <marker date="1561308314200" expanded="true" signature="32:121" ph="&lt;html.../&gt;" />
-            <marker date="1561308314200" expanded="true" signature="39:78" ph="&lt;head.../&gt;" />
-            <marker date="1561308314200" expanded="true" signature="79:113" ph="&lt;body.../&gt;" />
-            <marker date="1561308314200" expanded="true" signature="86:105" ph="&lt;div.../&gt;" />
+            <marker date="1561326393944" expanded="true" signature="63:467" ph="&lt;div.../&gt;" />
+            <marker date="1561326393944" expanded="true" signature="96:455" ph="&lt;form.../&gt;" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Magelan.Web/Views/User/Edit.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state>
           <folding>
-            <marker date="1561308355646" expanded="true" signature="32:121" ph="&lt;html.../&gt;" />
-            <marker date="1561308355646" expanded="true" signature="39:78" ph="&lt;head.../&gt;" />
-            <marker date="1561308355646" expanded="true" signature="79:113" ph="&lt;body.../&gt;" />
-            <marker date="1561308355646" expanded="true" signature="86:105" ph="&lt;div.../&gt;" />
+            <marker date="1561326631717" expanded="true" signature="18:107" ph="&lt;html.../&gt;" />
+            <marker date="1561326631717" expanded="true" signature="25:64" ph="&lt;head.../&gt;" />
+            <marker date="1561326631717" expanded="true" signature="65:99" ph="&lt;body.../&gt;" />
+            <marker date="1561326631717" expanded="true" signature="72:91" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Web/Views/User/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <marker date="1561326623814" expanded="true" signature="18:107" ph="&lt;html.../&gt;" />
+            <marker date="1561326623814" expanded="true" signature="25:64" ph="&lt;head.../&gt;" />
+            <marker date="1561326623814" expanded="true" signature="65:99" ph="&lt;body.../&gt;" />
+            <marker date="1561326623814" expanded="true" signature="72:91" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetRoles.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <marker date="1561323251381" expanded="false" signature="6:70" ph="..." />
+            <marker date="1561323251381" expanded="true" signature="97:652" ph="{...}" />
+            <marker date="1561323251381" expanded="true" signature="150:650" ph="{...}" />
+            <marker date="1561323251381" expanded="true" signature="185:331" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///opt/dotnet/sdk/2.2.105/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="4364" column="4" selection-start-line="4364" selection-start-column="4" selection-end-line="4364" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/Posts.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1561303750216" expanded="false" signature="6:70" ph="..." />
+            <marker date="1561303750216" expanded="true" signature="102:249" ph="{...}" />
+            <marker date="1561303750216" expanded="true" signature="149:247" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Services/MagelanService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1561303630016" expanded="false" signature="6:123" ph="..." />
+            <marker date="1561303630016" expanded="true" signature="152:644" ph="{...}" />
+            <marker date="1561303630016" expanded="true" signature="204:642" ph="{...}" />
+            <marker date="1561303630016" expanded="true" signature="327:384" ph="{...}" />
+            <marker date="1561303630016" expanded="true" signature="429:525" ph="{...}" />
+            <marker date="1561303630016" expanded="true" signature="565:636" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUsers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <marker date="1561323227777" expanded="false" signature="6:70" ph="..." />
+            <marker date="1561323227777" expanded="true" signature="97:1502" ph="{...}" />
+            <marker date="1561323227777" expanded="true" signature="150:1500" ph="{...}" />
+            <marker date="1561323227777" expanded="true" signature="185:459" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/BasicEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <marker date="1561326745914" expanded="true" signature="6:58" ph="..." />
+            <marker date="1561326745914" expanded="true" signature="86:319" ph="{...}" />
+            <marker date="1561326745914" expanded="true" signature="117:317" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Repositories/Migrations/20190623101249_identity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="212" selection-start-line="212" selection-end-line="212" />
+          <folding>
+            <marker date="1561284769988" expanded="false" signature="6:107" ph="..." />
+            <marker date="1561284769988" expanded="true" signature="150:9316" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="198:9314" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="274:8639" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="418:749" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="788:891" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="1028:2219" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="2258:2361" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="2503:2905" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="2944:3373" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="3515:3917" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="3956:4385" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="4527:4841" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="4880:5343" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="5484:5638" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="5677:6446" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="6588:6881" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="6920:7386" ph="{...}" />
+            <marker date="1561284769988" expanded="true" signature="8712:9308" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserRoles.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1561327672571" expanded="false" signature="6:92" ph="..." />
+            <marker date="1561327672571" expanded="true" signature="119:430" ph="{...}" />
+            <marker date="1561327672571" expanded="true" signature="162:428" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserTokens.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <marker date="1561327689178" expanded="false" signature="6:92" ph="..." />
+            <marker date="1561327689178" expanded="true" signature="119:467" ph="{...}" />
+            <marker date="1561327689178" expanded="true" signature="163:465" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserClaims.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1561327587231" expanded="false" signature="6:47" ph="..." />
+            <marker date="1561327587231" expanded="true" signature="119:418" ph="{...}" />
+            <marker date="1561327587231" expanded="true" signature="163:416" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetRoleClaims.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <marker date="1561328031878" expanded="false" signature="6:47" ph="..." />
+            <marker date="1561328031878" expanded="true" signature="119:410" ph="{...}" />
+            <marker date="1561328031878" expanded="true" signature="163:408" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Domains/AspNetUserLogins.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1561327648948" expanded="false" signature="6:47" ph="..." />
+            <marker date="1561327648948" expanded="true" signature="119:479" ph="{...}" />
+            <marker date="1561327648948" expanded="true" signature="163:477" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Repositories/DbContexts/GuidStringGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding>
+            <marker date="1561329434084" expanded="true" signature="6:104" ph="..." />
+            <marker date="1561329434084" expanded="true" signature="148:539" ph="{...}" />
+            <marker date="1561329434084" expanded="true" signature="216:537" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <marker date="1561330688038" expanded="true" signature="6:191" ph="..." />
+            <marker date="1561330688038" expanded="true" signature="235:8754" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="291:8752" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="385:396" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="1157:1576" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="1213:1566" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="1652:8745" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="1973:2560" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="2618:3150" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="3213:3800" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="3863:4711" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="4773:5504" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="5567:6227" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="6285:7757" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="7823:8224" ph="{...}" />
+            <marker date="1561330688038" expanded="true" signature="8276:8672" ph="{...}" />
           </folding>
         </state>
       </provider>

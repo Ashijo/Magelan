@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Magelan.Domains;
 
-namespace Magelan.Repositories
+namespace Magelan.Domains
 {
     public partial class AspNetUsers : BasicEntity
     {

@@ -53,6 +53,7 @@ namespace Magelan.Repositories.Base {
             var entry = Context.Entry(entity);
 
             entity.Id = Guid.NewGuid();
+            entity.Creation = DateTime.Now;
             entity.Deleted = false;
             entity.Archive = false;
 
@@ -65,6 +66,7 @@ namespace Magelan.Repositories.Base {
         public void AddRange(IEnumerable<TEntity> entities) {
             foreach (var entity in entities) {
                 entity.Id = Guid.NewGuid();
+                entity.Creation = DateTime.Now;
                 entity.Deleted = false;
                 entity.Archive = false;
             }

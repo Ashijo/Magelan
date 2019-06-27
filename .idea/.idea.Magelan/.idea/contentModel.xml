@@ -8,13 +8,8 @@
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="Magelan.Domains" t="IncludeRecursive">
-        <e p="AspNetRoleClaims.cs" t="Include" />
-        <e p="AspNetRoles.cs" t="Include" />
-        <e p="AspNetUserClaims.cs" t="Include" />
-        <e p="AspNetUserLogins.cs" t="Include" />
-        <e p="AspNetUserRoles.cs" t="Include" />
-        <e p="AspNetUserTokens.cs" t="Include" />
-        <e p="AspNetUsers.cs" t="Include" />
+        <e p="ApplicationRole.cs" t="Include" />
+        <e p="ApplicationUser.cs" t="Include" />
         <e p="BasicEntity.cs" t="Include" />
         <e p="EfmigrationsHistory.cs" t="Include" />
         <e p="Magelan.Domains.csproj" t="IncludeRecursive" />
@@ -46,10 +41,8 @@
         </e>
         <e p="Magelan.Repositories.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20190619224937_init.Designer.cs" t="Include" />
-          <e p="20190619224937_init.cs" t="Include" />
-          <e p="20190623101249_identity.Designer.cs" t="Include" />
-          <e p="20190623101249_identity.cs" t="Include" />
+          <e p="20190627014732_remake_entity.Designer.cs" t="Include" />
+          <e p="20190627014732_remake_entity.cs" t="Include" />
           <e p="MagelanDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Repositories" t="Include">

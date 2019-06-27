@@ -7,15 +7,15 @@ using Microsoft.AspNetCore.Mvc;
 namespace Magelan.Services.Services {
     public class UserService {
         
-        public static void Add(AspNetUsers user, string password, [FromServices] MagelanDbContext dbContext) {
-            PasswordHasher<AspNetUsers> hasher = new PasswordHasher<AspNetUsers>();
+        public static void Add(ApplicationUser user, string password, [FromServices] MagelanDbContext dbContext) {
+            PasswordHasher<ApplicationUser> hasher = new PasswordHasher<ApplicationUser>();
             
             user.Id = Guid.NewGuid();
             user.NormalizedEmail = user.Email.Normalize();
             user.NormalizedUserName = user.UserName.Normalize();
             user.PasswordHash = hasher.HashPassword(user, password);
 
-            dbContext.AspNetUsers.Add(user);
+            dbContext.ApplicationUsers.Add(user);
             dbContext.SaveChanges();
         }
         

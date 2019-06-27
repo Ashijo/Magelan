@@ -18,8 +18,8 @@ namespace Magelan.Web.Controllers {
 
         [HttpPost]
         public IActionResult Create([FromServices] MagelanDbContext context, CreateUserViewModel userViewModel) {
-            AspNetUsers user = new AspNetUsers();
-            PasswordHasher<AspNetUsers> hasher = new PasswordHasher<AspNetUsers>();
+            ApplicationUser user = new ApplicationUser();
+            PasswordHasher<ApplicationUser> hasher = new PasswordHasher<ApplicationUser>();
 
             user.Email = userViewModel.Email;
             user.UserName = userViewModel.UserName;

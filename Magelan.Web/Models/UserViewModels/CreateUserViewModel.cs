@@ -12,6 +12,6 @@ namespace Magelan.Web.Models.UserViewModels {
         public string PhoneNumber { get; set; }
         public bool LockoutEnabled { get; set; }
 
-        public virtual ICollection<AspNetUserRoles>      AspNetUserRoles { get; set; }
+        public virtual ICollection<ApplicationRole> ApplicationRoles { get; set; }
     }
 }

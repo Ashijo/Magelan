@@ -2,101 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7afa912a-0de2-4af4-8acc-553eb0e6d06e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Magelan.Domains/Bases/IBasicEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Domains/ApplicationRole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/ApplicationRole.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Domains/ApplicationUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/ApplicationUser.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Domains/BasicEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Domains/EfmigrationsHistory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Domains/Magelan.Domains.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/Magelan.Domains.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Domains/Posts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Domains/Posts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Base/CrudableRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Base/CrudableRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Base/ICrudableRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Base/ICrudableRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Base/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Base/IRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/DbContexts/GuidStringGenerator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/DbContexts/GuidStringGenerator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContextFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IPostRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IPostRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Magelan.Repositories.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Magelan.Repositories.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Repositories/PostsRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Repositories/PostsRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/RepositoryExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/RepositoryExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Services/Extensions/ServicesExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Services/Extensions/ServicesExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Services/IMagelanService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Services/IMagelanService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Services/Magelan.Services.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Services/Magelan.Services.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Services/MagelanService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Services/MagelanService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Services/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Services/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Controllers/UserController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Magelan.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Magelan.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Models/ErrorViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Models/ErrorViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Models/UserViewModels/CreateUserViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Models/UserViewModels/CreateUserViewModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/Shared/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/Shared/Error.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/Shared/_CookieConsentPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/User/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/User/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/User/Edit.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/User/Edit.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/User/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/User/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/_ViewImports.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/Views/_ViewStart.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/Views/_ViewStart.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/css/darkSite.css" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/css/darkSite.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/css/site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/js/site.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/js/site.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Web/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +23,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - Magelan@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - Magelan@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - Magelan@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Magelan: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - Magelan@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Magelan: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="ApplicationUsers: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -167,11 +98,11 @@
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Migrations/MagelanDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Migrations/20190912005755_Init.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/RepositoryExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ADF771F9-2E75-4FE1-BB85-C5850CD0C16B/f0/0346931d/DbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Service/Program.cs" />
         <option value="$PROJECT_DIR$/Magelan.Service/Magelan.Service.csproj" />
         <option value="$PROJECT_DIR$/Magelan.Services/Magelan.Services.csproj" />
@@ -208,9 +139,7 @@
         <option value="$PROJECT_DIR$/Magelan.Domains/Bases/IBasicEntity.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/Bases/IIntKey.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/Bases/ICrudableEntity.cs" />
-        <option value="$PROJECT_DIR$/Magelan.Repositories/Base/IRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Base/ICrudableRepository.cs" />
-        <option value="$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Base/CrudableRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/Posts.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/MagelanUser.cs" />
@@ -222,6 +151,9 @@
         <option value="$PROJECT_DIR$/Magelan.Repositories/RepositoryExtensions.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContextFactory.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Repositories/Base/IRepository.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Repositories/Base/IntIdRepository.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" />
       </list>
     </option>
   </component>
@@ -284,7 +216,12 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@78aaf86" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -309,7 +246,7 @@
       <workItem from="1565046664967" duration="1129000" />
       <workItem from="1567294005819" duration="101000" />
       <workItem from="1568242181200" duration="186000" />
-      <workItem from="1568242391652" duration="5039000" />
+      <workItem from="1568242391652" duration="9123000" />
     </task>
     <servers />
   </component>

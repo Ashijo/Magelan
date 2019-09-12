@@ -5,7 +5,7 @@ using Magelan.Domains;
 
 namespace Magelan.Repositories.Interfaces {
     public interface IRepository<TEntity> where TEntity : IBasicEntity {
-        TEntity Get(Guid id);
+        TEntity Get<TId>(TId id);
         IEnumerable<TEntity> GetAll();
         IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
 

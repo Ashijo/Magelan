@@ -9,7 +9,7 @@ namespace Magelan.Repositories.DbContexts {
     {
         public MagelanDbContext CreateDbContext(string[] args) {
             var optionsBuilder = new DbContextOptionsBuilder<MagelanDbContext>();
-            optionsBuilder.UseMySql("Server=localhost;Database=Magelan;User=username;Password=password;",
+            optionsBuilder.UseMySql("Server=localhost;Database=Magelan;User=magelan;Password=password;",
                 mySqlOptions => { mySqlOptions.ServerVersion(new Version(10, 3, 15), ServerType.MariaDb); }
             );
 

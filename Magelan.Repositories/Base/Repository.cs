@@ -8,7 +8,7 @@ using Magelan.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace Magelan.Repositories.Base {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : BasicEntity {
+    public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : class, IBasicEntity {
         protected readonly MagelanDbContext Context;
         protected readonly DbSet<TEntity> DbSet;
 
@@ -18,14 +18,14 @@ namespace Magelan.Repositories.Base {
         }
 
 
-        public TEntity Get(Guid id) {
+        public virtual  TEntity Get(Guid id) {
             // Here we are working with a DbContext, not PlutoContext. So we don't have DbSets 
             // such as Courses or Authors, and we need to use the generic Set() method to access them.
 
             return DbSet.Find(id);
         }
 
-        public IEnumerable<TEntity> GetAll() {
+        public virtual IEnumerable<TEntity> GetAll() {
             // Note that here I've repeated Context.Set<TEntity>() in every method and this is causing
             // too much noise. I could get a reference to the DbSet returned from this method in the 
             // constructor and store it in a private field like _entities. This way, the implementation
@@ -38,44 +38,36 @@ namespace Magelan.Repositories.Base {
             // I didn't change it because I wanted the code to look like the videos. But feel free to change
             // this on your own.
 
-            return DbSet.Where(entity => entity.Archive == false && entity.Deleted == false).ToList();
+            return DbSet.ToList();
         }
 
-        public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate) {
+        public virtual IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate) {
             return DbSet.Where(predicate);
         }
 
-        public TEntity SingleOrDefault(Expression<Func<TEntity, bool>> predicate) {
+        public virtual TEntity SingleOrDefault(Expression<Func<TEntity, bool>> predicate) {
             return DbSet.SingleOrDefault(predicate);
         }
 
-        public void Add(TEntity entity) {
+        public virtual void Add(TEntity entity) {
             var entry = Context.Entry(entity);
 
-            entity.Id = Guid.NewGuid();
             entity.Creation = DateTime.Now;
-            entity.Deleted = false;
-            entity.Archive = false;
-
-
             entry.State = EntityState.Detached;
 
             DbSet.Add(entity);
         }
 
-        public void AddRange(IEnumerable<TEntity> entities) {
+        public virtual void AddRange(IEnumerable<TEntity> entities) {
             foreach (var entity in entities) {
-                entity.Id = Guid.NewGuid();
                 entity.Creation = DateTime.Now;
-                entity.Deleted = false;
-                entity.Archive = false;
             }
 
             DbSet.AddRange(entities);
         }
 
 
-        public bool SaveChanges() {
+        public virtual bool SaveChanges() {
             return Context.SaveChanges() > 0;
         }
     }

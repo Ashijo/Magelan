@@ -13,7 +13,11 @@ namespace Magelan.Repositories.DbContexts {
 
         
         public virtual DbSet<ApplicationRole> ApplicationRoles { get; set; }
+        public virtual DbSet<MagelanRole> MagelanRoles { get; set; }
         public virtual DbSet<ApplicationUser> ApplicationUsers { get; set; }
+        public virtual DbSet<MagelanUser> MagelanUsers { get; set; }
+        
+        
         public virtual DbSet<Posts> Posts { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -21,7 +25,7 @@ namespace Magelan.Repositories.DbContexts {
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySql("Server=localhost;Database=Magelan;User=username;Password=password;");
+                optionsBuilder.UseMySql("Server=localhost;Database=magelan;User=magelan;Password=password;");
             }
         }
 

@@ -3,7 +3,7 @@ using Magelan.Domains;
 using Magelan.Repositories.Interfaces;
 
 namespace Magelan.Repositories.Base {
-    public interface ICrudableRepository<TEntity> : IRepository<TEntity> where TEntity : BasicEntity {
+    public interface ICrudableRepository<TEntity> : IRepository<TEntity> where TEntity : ICrudableEntity {
         void Remove(TEntity entity);
         void RemoveRange(IEnumerable<TEntity> entities);
 

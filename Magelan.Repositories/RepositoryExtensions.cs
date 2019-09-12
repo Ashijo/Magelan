@@ -12,7 +12,7 @@ namespace Magelan.Repositories {
     public static class RepositoryExtensions {
         public static IServiceCollection AddApplicationDbContext(this IServiceCollection services,
             IConfiguration configuration) {
-            services.AddApplicationDbContext("Server=localhost;Database=Magelan;User=username;Password=password;");
+            services.AddApplicationDbContext("Server=localhost;Database=magelan;User=magelan;Password=password;");
             //configuration.GetConnectionString("DefaultConnection")
             return services;
         }

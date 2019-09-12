@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
-    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_Magelan.2024150054.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Magelan.1810384101.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p="Magelan.Domains" t="IncludeRecursive">
         <e p="ApplicationRole.cs" t="Include" />
         <e p="ApplicationUser.cs" t="Include" />
-        <e p="BasicEntity.cs" t="Include" />
-        <e p="EfmigrationsHistory.cs" t="Include" />
+        <e p="Bases" t="Include">
+          <e p="IBasicEntity.cs" t="Include" />
+          <e p="ICrudableEntity.cs" t="Include" />
+          <e p="IGuidKey.cs" t="Include" />
+          <e p="IIntKey.cs" t="Include" />
+        </e>
         <e p="Magelan.Domains.csproj" t="IncludeRecursive" />
+        <e p="MagelanRole.cs" t="Include" />
+        <e p="MagelanUser.cs" t="Include" />
         <e p="Posts.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -41,8 +44,8 @@
         </e>
         <e p="Magelan.Repositories.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20190627014732_remake_entity.Designer.cs" t="Include" />
-          <e p="20190627014732_remake_entity.cs" t="Include" />
+          <e p="20190912005755_Init.Designer.cs" t="Include" />
+          <e p="20190912005755_Init.cs" t="Include" />
           <e p="MagelanDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Repositories" t="Include">

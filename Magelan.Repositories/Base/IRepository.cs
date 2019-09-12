@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using Magelan.Domains;
 
 namespace Magelan.Repositories.Interfaces {
-    public interface IRepository<TEntity> where TEntity : BasicEntity {
+    public interface IRepository<TEntity> where TEntity : IBasicEntity {
         TEntity Get(Guid id);
         IEnumerable<TEntity> GetAll();
         IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);

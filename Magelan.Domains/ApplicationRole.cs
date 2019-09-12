@@ -7,8 +7,6 @@ namespace Magelan.Domains
 {
     public class ApplicationRole : IdentityRole<Guid> // : BasicEntity
     {
-        public DateTime Creation { get; set; }
-        public bool Deleted { get; set; }
-        public bool Archive { get; set; }
+        private MagelanRole magelanRole { get; set; }
     }
 }

@@ -1,10 +1,11 @@
+using System;
 using System.Collections.Generic;
 using Magelan.Domains;
 using Magelan.Repositories.DbContexts;
 using Microsoft.EntityFrameworkCore;
 
 namespace Magelan.Repositories.Base {
-    public class CrudableRepository<TEntity> : Repository<TEntity> where TEntity : BasicEntity {
+    public class CrudableRepository<TEntity> : Repository<TEntity> where TEntity : class, ICrudableEntity {
 
         public CrudableRepository(MagelanDbContext context) : base(context) { }
         
@@ -27,6 +28,27 @@ namespace Magelan.Repositories.Base {
             //DbSet.RemoveRange(entities);
         }
 
+        public virtual void Add(TEntity entity) {
+            var entry = Context.Entry(entity);
+
+            entity.Deleted = false;
+            entity.Archive = false;
+            
+            entity.Creation = DateTime.Now;
+            entry.State = EntityState.Detached;
+
+            DbSet.Add(entity);
+        }
+        
+        public override void AddRange(IEnumerable<TEntity> entities) {
+            foreach (var entity in entities) {
+                entity.Creation = DateTime.Now;
+                entity.Deleted = false;
+                entity.Archive = false;
+            }
+
+            base.AddRange(entities);
+        }
         public void Update(TEntity entity) {
             var entry = Context.Entry(entity);
 

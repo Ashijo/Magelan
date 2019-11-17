@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7afa912a-0de2-4af4-8acc-553eb0e6d06e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Base/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Base/IRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +245,10 @@
       <workItem from="1565046664967" duration="1129000" />
       <workItem from="1567294005819" duration="101000" />
       <workItem from="1568242181200" duration="186000" />
-      <workItem from="1568242391652" duration="9123000" />
+      <workItem from="1568242391652" duration="9125000" />
+      <workItem from="1571791774749" duration="671000" />
+      <workItem from="1571793222533" duration="135000" />
+      <workItem from="1571793364265" duration="10000" />
     </task>
     <servers />
   </component>

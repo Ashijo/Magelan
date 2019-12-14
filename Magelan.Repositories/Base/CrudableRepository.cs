@@ -11,7 +11,7 @@ namespace Magelan.Repositories.Base {
         
         
         public void Remove(TEntity entity) {
-           // entity.Deleted = true;
+            entity.Deleted = true;
             DbSet.Update(entity);
 
             
@@ -21,7 +21,7 @@ namespace Magelan.Repositories.Base {
 
         public void RemoveRange(IEnumerable<TEntity> entities) {
             foreach (var entity in entities) {
-               // entity.Deleted = true;
+                entity.Deleted = true;
             }
 
             DbSet.UpdateRange(entities);

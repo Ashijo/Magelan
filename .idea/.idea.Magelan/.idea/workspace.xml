@@ -4,6 +4,7 @@
     <list default="true" id="7afa912a-0de2-4af4-8acc-553eb0e6d06e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Magelan/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Magelan.Repositories/Base/CrudableRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Magelan.Repositories/Base/CrudableRepository.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +38,6 @@
         <item name="MariaDB - Magelan@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="Magelan: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MariaDB - Magelan@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Magelan: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="ApplicationUsers: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -97,12 +91,13 @@
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Migrations/MagelanDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/Migrations/20190912005755_Init.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Magelan.Repositories/RepositoryExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Magelan.Web/ClientApp/node_modules/selenium-webdriver/lib/test/data/Page.aspx" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Magelan.Web/ClientApp/node_modules/selenium-webdriver/lib/test/data/Page.aspx.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ADF771F9-2E75-4FE1-BB85-C5850CD0C16B/f0/0346931d/DbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Magelan.Service/Program.cs" />
         <option value="$PROJECT_DIR$/Magelan.Service/Magelan.Service.csproj" />
         <option value="$PROJECT_DIR$/Magelan.Services/Magelan.Services.csproj" />
         <option value="$PROJECT_DIR$/Magelan.Services/Extensions/ServicesExtensions.cs" />
@@ -139,7 +134,6 @@
         <option value="$PROJECT_DIR$/Magelan.Domains/Bases/IIntKey.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/Bases/ICrudableEntity.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Base/ICrudableRepository.cs" />
-        <option value="$PROJECT_DIR$/Magelan.Repositories/Base/CrudableRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/Posts.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/MagelanUser.cs" />
         <option value="$PROJECT_DIR$/Magelan.Domains/ApplicationUser.cs" />
@@ -148,11 +142,13 @@
         <option value="$PROJECT_DIR$/Magelan.Repositories/Interfaces/IUserRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Repositories/UserRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/RepositoryExtensions.cs" />
-        <option value="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContextFactory.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Base/IRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Base/IntIdRepository.cs" />
         <option value="$PROJECT_DIR$/Magelan.Repositories/Base/Repository.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Repositories/DbContexts/MagelanDbContext.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Repositories/Base/CrudableRepository.cs" />
+        <option value="$PROJECT_DIR$/Magelan.Web/ClientApp/package.json" />
       </list>
     </option>
   </component>
@@ -175,11 +171,13 @@
     <property name="add_unversioned_files" value="$PROJECT_DIR$/Magelan.Repositories/Migrations/20190623101249_identity.cs" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Magelan.Web/ClientApp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/Magelan.Web/ClientApp/node_modules/typescript/lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -249,6 +247,9 @@
       <workItem from="1571791774749" duration="671000" />
       <workItem from="1571793222533" duration="135000" />
       <workItem from="1571793364265" duration="10000" />
+      <workItem from="1574005407380" duration="430000" />
+      <workItem from="1576326316586" duration="110000" />
+      <workItem from="1576326579279" duration="2816000" />
     </task>
     <servers />
   </component>
